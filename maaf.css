@@ -40,7 +40,6 @@ h2 {
 .bekas-butang {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 20px;
     height: 50px;
 }
@@ -54,4 +53,4 @@ button {
 }
 
 #btn-enggak { background: #4caf50; color: white; }
-#btn-masih { background: #f44336; color: white; position: absolute; }
+#btn-masih { background: #f44336; color: white; }
