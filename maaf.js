@@ -2,6 +2,9 @@
 var lagu = new Audio("lagu.mp3"); 
 
 function lari(btn) {
+     // Dia cuma jadi absolute BILA mouse sentuh je
+    btn.style.position = "absolute";
+    
     const x = Math.random() * (window.innerWidth - btn.offsetWidth);
     const y = Math.random() * (window.innerHeight - btn.offsetHeight);
     btn.style.left = x + "px";
